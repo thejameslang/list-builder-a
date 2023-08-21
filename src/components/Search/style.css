@@ -1,0 +1,19 @@
+.search {
+  height: 24px;
+  width: 24px;
+}
+
+.search .search-default {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/5d1eaf3c114c3f72c8b067092630dd48/img/path-17.svg);
+  background-size: 100% 100%;
+  height: 24px;
+  position: relative;
+}
+
+.search .img-2 {
+  height: 17px;
+  left: 3px;
+  position: absolute;
+  top: 3px;
+  width: 17px;
+}

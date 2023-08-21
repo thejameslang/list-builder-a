@@ -1,0 +1,115 @@
+.button {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  justify-content: center;
+  padding: 8px;
+  position: relative;
+}
+
+.button .text-wrapper {
+  font-family: var(--desktop-tablet-MD-body-body-2-medium-font-family);
+  font-size: var(--desktop-tablet-MD-body-body-2-medium-font-size);
+  font-style: var(--desktop-tablet-MD-body-body-2-medium-font-style);
+  font-weight: var(--desktop-tablet-MD-body-body-2-medium-font-weight);
+  letter-spacing: var(--desktop-tablet-MD-body-body-2-medium-letter-spacing);
+  line-height: var(--desktop-tablet-MD-body-body-2-medium-line-height);
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button .class {
+  height: 13px !important;
+  left: 1px !important;
+  top: 1px !important;
+  width: 13px !important;
+}
+
+.button .class-2 {
+  height: 16px !important;
+}
+
+.button .class-3 {
+  height: 16px !important;
+  width: 16px !important;
+}
+
+.button .class-4 {
+  height: 16px !important;
+  margin-bottom: -1px !important;
+  margin-top: -1px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.button .class-5 {
+  position: relative !important;
+}
+
+.button .class-6 {
+  left: -5px !important;
+  top: -5px !important;
+}
+
+.button.large {
+  height: 42px;
+}
+
+.button.small {
+  height: 30px;
+}
+
+.button.type-1-text {
+  gap: 8px;
+}
+
+.button.style-secondary {
+  border: 2px solid;
+}
+
+.button.style-secondary.type-1-icon {
+  gap: 2px;
+}
+
+.button.type-1-icon.style-text {
+  gap: 2px;
+}
+
+.button.style-primary.state-disabled {
+  background-color: var(--neutralsgrey-300);
+}
+
+.button.style-primary.state-default {
+  background-color: var(--primaryprimary-500);
+}
+
+.button.style-secondary.state-disabled {
+  border-color: var(--neutralsgrey-300);
+}
+
+.button.style-secondary.state-default {
+  border-color: var(--primaryprimary-500);
+}
+
+.button.state-disabled .text-wrapper {
+  color: var(--neutralsgrey-600);
+}
+
+.button.small .text-wrapper {
+  margin-bottom: -1px;
+  margin-top: -5px;
+}
+
+.button.style-text.state-default .text-wrapper {
+  color: var(--primaryprimary-500);
+}
+
+.button.style-secondary.state-default .text-wrapper {
+  color: var(--primaryprimary-500);
+}
+
+.button.style-primary.state-default .text-wrapper {
+  color: var(--neutralsgrey-00);
+}

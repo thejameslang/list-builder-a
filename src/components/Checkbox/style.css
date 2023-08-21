@@ -1,0 +1,46 @@
+.checkbox {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  position: relative;
+}
+
+.checkbox .div {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.checkbox .img {
+  height: 18px;
+  left: 3px;
+  position: absolute;
+  top: 3px;
+  width: 18px;
+}
+
+.checkbox .overlap-group {
+  background-size: 100% 100%;
+  height: 18px;
+  left: 3px;
+  position: relative;
+  top: 3px;
+  width: 18px;
+}
+
+.checkbox .rectangle {
+  background-color: var(--neutralsgrey-00);
+  height: 2px;
+  left: 2px;
+  position: relative;
+  top: 8px;
+  width: 14px;
+}
+
+.checkbox .default {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/5d1eaf3c114c3f72c8b067092630dd48/img/ic-check-box-24px.svg);
+}
+
+.checkbox .disabled {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/5d1eaf3c114c3f72c8b067092630dd48/img/ic-check-box-24px-1.svg);
+}

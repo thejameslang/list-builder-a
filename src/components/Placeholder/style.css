@@ -1,0 +1,16 @@
+.placeholder {
+  border-radius: 4px;
+  height: 24px;
+  overflow: hidden;
+  width: 24px;
+}
+
+.placeholder .icon {
+  background-color: var(--neutralsgrey-500);
+  border-radius: 6px;
+  height: 20px;
+  left: 2px;
+  position: relative;
+  top: 2px;
+  width: 20px;
+}

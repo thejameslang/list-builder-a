@@ -1,0 +1,14 @@
+.property-default-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.property-default-wrapper .button-2 {
+  flex: 0 0 auto !important;
+}
+
+.property-default-wrapper.variant-3 {
+  background-color: #007db80a;
+  border-radius: 4px;
+}
